@@ -6,8 +6,12 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\Service\\Logger' => $baseDir . '/src/Service/Logger.php',
+    'App\\App\\Demo' => $baseDir . '/src/App/Demo.php',
+    'App\\App\\HttpRequest' => $baseDir . '/src/App/Demo.php',
+    'App\\Service\\AppLogger' => $baseDir . '/src/Service/AppLogger.php',
+    'App\\Service\\Common' => $baseDir . '/src/Service/Common.php',
     'App\\Service\\ProductHandler' => $baseDir . '/src/Service/ProductHandler.php',
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Logger' => $vendorDir . '/apache/log4php/src/main/php/Logger.php',
     'LoggerAppender' => $vendorDir . '/apache/log4php/src/main/php/LoggerAppender.php',
     'LoggerAppenderConsole' => $vendorDir . '/apache/log4php/src/main/php/appenders/LoggerAppenderConsole.php',
